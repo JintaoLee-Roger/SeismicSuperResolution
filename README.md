@@ -6,7 +6,7 @@ This is a repository for the paper "Deep Learning for Simultaneous Seismic Image
 
 ### Dataset
 
-All the data used in this paper is avaliable in google drive [https://drive.google.com/drive/folders/1DuMdclOdeXDgGBOhsHSlEdTB_LvhIH-X](https://drive.google.com/drive/folders/1DuMdclOdeXDgGBOhsHSlEdTB_LvhIH-X)
+All the data used in this paper is avaliable in google drive [https://drive.google.com/drive/folders/1DuMdclOdeXDgGBOhsHSlEdTB_LvhIH-X?usp=sharing](https://drive.google.com/drive/folders/1DuMdclOdeXDgGBOhsHSlEdTB_LvhIH-X?usp=sharing)
 
 
 ### Code 
