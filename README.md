@@ -20,7 +20,7 @@ SeismicSuperResolution/
       ├───── experiment/
       │        ├───── alpha6/
       │        │        ├───── model/
-      │        │        │         ├───── model_best.pt
+      │        │        │         ├───── model_best.pt # in google drive
       │        │        │         └───── ...
       │        │        └───── ...
       │        └───── ...
@@ -31,7 +31,7 @@ SeismicSuperResolution/
 
 ### Dataset
 
-All the data used in this paper is avaliable in google drive [https://drive.google.com/drive/folders/1DuMdclOdeXDgGBOhsHSlEdTB_LvhIH-X?usp=sharing](https://drive.google.com/drive/folders/1DuMdclOdeXDgGBOhsHSlEdTB_LvhIH-X?usp=sharing)
+All the data used in this paper is avaliable in google drive [https://drive.google.com/drive/folders/1DuMdclOdeXDgGBOhsHSlEdTB_LvhIH-X?usp=sharing](https://drive.google.com/drive/folders/1DuMdclOdeXDgGBOhsHSlEdTB_LvhIH-X?usp=sharing). And the model `experiment/alpha6/model/model_best.pt` can also be obtained by above google drive link.
 
 
 ### Code 
