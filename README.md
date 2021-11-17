@@ -1,8 +1,33 @@
 # SeismicSuperResolution
 
-This is a repository for the paper "Deep Learning for Simultaneous Seismic Image Super-Resolution and Denoising" (IEEE Transactions on Geoscience and Remote Sensing)
+This is a repository for the paper "Deep Learning for Simultaneous Seismic Image Super-Resolution and Denoising" (IEEE Transactions on Geoscience and Remote Sensing).
+
+The frame and some code are from [sanghyun-son/EDSR-PyTorch](https://github.com/sanghyun-son/EDSR-PyTorch).
+[src/loss/msssim.py](src/loss/msssim.py) was modified based on [jorge-pessoa/pytorch-msssim](https://github.com/jorge-pessoa/pytorch-msssim).
 
 ## Usage
+
+```
+SeismicSuperResolution/
+      ├───── data/
+      │        ├───── sx/     # high resolution data
+      │        ├───── nx2/    # low resolution data
+      │        └───── feild/  # feild data
+      │                 ├───── kumano2_608x400.dat
+      │                 ├───── lulia_592x400.dat
+      │                 ├───── tp_352x240.dat
+      │                 └───── ...
+      ├───── experiment/
+      │        ├───── alpha6/
+      │        │        ├───── model/
+      │        │        │         ├───── model_best.pt
+      │        │        │         └───── ...
+      │        │        └───── ...
+      │        └───── ...
+      │ 
+      └───── src/        
+               └───── ...
+```
 
 ### Dataset
 
@@ -11,8 +36,15 @@ All the data used in this paper is avaliable in google drive [https://drive.goog
 
 ### Code 
 
-Code is being refreshed, it is too mess.
+All code is in the directory `src`.
 
+
+### Dependencies
+- python 3.6.9
+- pytorch 1.6.0
+- numpy 1.17.4
+- cudatoolkit 10.1.243
+- matplotlib 3.1.1
 
 ## Citation
 If you find this work useful in your research, please consider citing:
