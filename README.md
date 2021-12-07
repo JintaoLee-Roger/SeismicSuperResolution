@@ -51,18 +51,18 @@ If you find this work useful in your research, please consider citing:
 
 Plain Text
 ```
-J. Li, X. Wu and Z. Hu, "Deep Learning for Simultaneous Seismic Image Super-Resolution and Denoising," in IEEE Transactions on Geoscience and Remote Sensing, doi: 10.1109/TGRS.2021.3057857.
+J. Li, X. Wu and Z. Hu, "Deep Learning for Simultaneous Seismic Image Super-Resolution and Denoising," in IEEE Transactions on Geoscience and Remote Sensing, vol. 60, pp. 1-11, 2022, Art no. 5901611, doi: 10.1109/TGRS.2021.3057857.
 ```
 
 BibTex
 ```latex
-@ARTICLE{deep2021li,
-   author={J. {Li} and X. {Wu} and Z. {Hu}},
+@article{deep2022li,
+   author={Li, Jintao and Wu, Xinming and Hu, Zhanxuan},
    journal={IEEE Transactions on Geoscience and Remote Sensing}, 
    title={Deep Learning for Simultaneous Seismic Image Super-Resolution and Denoising}, 
-   year={2021},
-   volume={},
-   number={},
+   year={2022},
+   volume={60},
+   number={5901611},
    pages={1-11},
    doi={10.1109/TGRS.2021.3057857}}
 ```
