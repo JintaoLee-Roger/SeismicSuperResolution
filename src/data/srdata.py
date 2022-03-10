@@ -9,8 +9,8 @@ class SRData(data.Dataset):
         self.args = args
         self.train = train
         self.scale = args.scale
-        self.arr = self.get_arr()
-        # self.arr = np.fromfile('arr.dat', dtype=int)
+        # self.arr = self.get_arr()
+        self.arr = np.fromfile('data/arr.dat', dtype=int)
 
         data_range = [r.split('-') for r in args.data_range.split('/')] # ex: self.data_range: 1-400/401-432
         data_range = data_range[0] if train else data_range[1]
