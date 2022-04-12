@@ -32,7 +32,7 @@ class SRData(data.Dataset):
         names_hr = np.array(names_hr)[self.arr] # shuffle
         names_hr = names_hr[self.begin - 1: self.end]
 
-        if self.args.apply_feild_data:
+        if self.args.apply_field_data:
             names_lr = np.array(names_lr)
         else:
             names_lr = np.array(names_lr)[self.arr]
@@ -43,7 +43,7 @@ class SRData(data.Dataset):
     def _set_filesystem(self, dir_data_root):
         self.root_path = dir_data_root
         self.dir_hr = os.path.join(self.root_path, self.args.dir_hr)
-        if not self.args.apply_feild_data:
+        if not self.args.apply_field_data:
             self.dir_lr = os.path.join(self.root_path, self.args.dir_lr)
         else:
             self.dir_lr = self.args.dir_lr
@@ -73,7 +73,7 @@ class SRData(data.Dataset):
 
         lr = np.fromfile(f_lr, dtype=np.float32)
         hr = np.fromfile(f_hr, dtype=np.float32)
-        if not self.args.apply_feild_data:
+        if not self.args.apply_field_data:
             lr = lr.reshape((128,128))
         else:
             shape = [int(x) for x in filename.split('_')[1].split('x')]

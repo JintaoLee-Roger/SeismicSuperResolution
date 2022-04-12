@@ -46,12 +46,12 @@ def main():
     checkpoint.done()
 
 ########### Test2 ##############
-    print("test feild data")
+    print("test field data")
     args.test_only = True
-    args.save_dir_suffix = 'feild'
+    args.save_dir_suffix = 'field'
     args.data_range = '1-1200/1451-1453'
-    args.dir_lr = '../data/feild/'
-    args.apply_feild_data = True
+    args.dir_lr = '../data/field/'
+    args.apply_field_data = True
     args.pre_train = '../experiment/alpha6/model/model_best.pt'
     checkpoint = utility.checkpoint(args)
     loader = data.Data(args)

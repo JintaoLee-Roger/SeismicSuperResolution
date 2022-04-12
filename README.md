@@ -12,7 +12,7 @@ SeismicSuperResolution/
       ├───── data/
       │        ├───── sx/     # high resolution data
       │        ├───── nx2/    # low resolution data
-      │        └───── feild/  # feild data
+      │        └───── field/  # field data
       │                 ├───── kumano2_608x400.dat
       │                 ├───── lulia_592x400.dat
       │                 ├───── tp_352x240.dat

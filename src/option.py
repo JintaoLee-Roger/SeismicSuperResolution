@@ -38,12 +38,12 @@ parser.add_argument('--resume', type=int, default=0,
                     help='resume from specific checkpoint')
 
 # dir configure
-parser.add_argument('--apply_feild_data', type=bool, default=False)
+parser.add_argument('--apply_field_data', type=bool, default=False)
 parser.add_argument('--dir_data_root', type=str, default='../data/',
                     help='root directory of dataset')
 parser.add_argument('--dir_lr', type=str, default='nx2',
                     help='if synthetic data, like this: dir_data_root/dir_lr.   '+
-                    'if feild data, dir_lr is the absolute path of feild data.')
+                    'if field data, dir_lr is the absolute path of field data.')
 parser.add_argument('--dir_hr', type=str, default='sx',
                     help='like this: dir_data_root/dir_hr.')
 parser.add_argument('--save_dir_suffix', type=str, default='syn',

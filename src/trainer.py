@@ -90,7 +90,7 @@ class Trainer():
                 lossv = self.lossv(sr, hr)
 
             save_list = [sr]
-            if not self.args.apply_feild_data:
+            if not self.args.apply_field_data:
                 self.ckp.log[-1] += utility.calc_psnr(
                     sr, hr, scale
                 )
@@ -98,7 +98,7 @@ class Trainer():
             if self.args.save_results:
                 self.ckp.save_results(filename[0], save_list, params)
 
-        if not self.args.apply_feild_data:
+        if not self.args.apply_field_data:
             self.ckp.log[-1] /= len(self.loader_test)
             best = self.ckp.log.max(0)
             self.ckp.write_log(

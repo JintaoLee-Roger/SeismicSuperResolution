@@ -150,12 +150,12 @@ class checkpoint():
 
     def save_results(self, filename, save_list, params=None):
         shape = save_list[0].shape[2:]
-        if self.args.apply_feild_data:
+        if self.args.apply_field_data:
             save_name = filename.split('_')[0]
         else:
             save_name = filename
 
-        if self.args.apply_feild_data:
+        if self.args.apply_field_data:
             filename = self.get_path(
                     f'results-{self.args.save_dir_suffix}',
                     f'{save_name}_{shape[1]}x{shape[0]}.dat')
